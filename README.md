@@ -54,7 +54,8 @@ Check results:
       it will not be caught by the check, and as a result, the script will be considered
       not to meet the specified criteria.
     • The name of the backup must strictly correspond to the given mask case-sensitive
-      (if transferred to /etc/default, then the name of the archive file must begin with etc-default and end with .tar.gz).
+      (if transferred to /etc/default, then the name of the archive file must begin
+      with etc-default and end with .tar.gz).
     • It is assumed that both parameters passed to the script are interconnected:
       i.e. The number of backups for storage applies only to the backup of the transferred folder,
       and not to all the backups in /tmp/backup.
